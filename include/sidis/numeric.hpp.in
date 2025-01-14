@@ -1,0 +1,14 @@
+#ifndef SIDIS_NUMERIC_HPP
+#define SIDIS_NUMERIC_HPP
+
+namespace sidis {
+
+/// The floating point type used in all calculations. The `sidis` library can be
+/// recompiled using the `Sidis_REAL_TYPE` CMake parameter to choose a different
+/// floating point type.
+using Real = $CACHE{Sidis_REAL_TYPE};
+
+}
+
+#endif
+
